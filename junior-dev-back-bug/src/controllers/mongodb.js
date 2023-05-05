@@ -3,7 +3,7 @@ import { connect, set } from 'mongoose';
 export default function (mongodbURL) {
   return new Promise(function (resolve, reject) {
     // Set mongoose properties
-    const mongodbURL = 'mongodb+srv://Azizul:MaZeda2613@azizul.nx2lfoc.mongodb.net/bkash'
+    const mongodbURL = 'mongoDB url should be here'
     set('strictQuery', true);
 
     // Connect
